@@ -1,0 +1,22 @@
+{
+  "name": "wc-toggle-switch",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run -w @michaelmcdaniel/wc-toggle-switch build",
+    "dev": "npm run -w demo dev",
+    "demo:build": "npm run -w demo build"
+  },
+  "exports": {
+    ".": "./dist/wc-toggle-switch.js",
+    "./min": "./dist/wc-toggle-switch.min.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]  
+}

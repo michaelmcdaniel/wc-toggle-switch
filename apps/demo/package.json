@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@michaelmcdaniel/wc-toggle-switch": "file:../../packages/wc-toggle-switch"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

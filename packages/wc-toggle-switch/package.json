@@ -1,0 +1,24 @@
+{
+  "name": "@michaelmcdaniel/wc-toggle-switch",
+  "version": "0.1.0",
+  "description": "A custom toggle switch web component with perceptually-aware color handling (OKLCH-based).",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.57.1"
+  }
+}
